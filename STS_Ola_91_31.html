@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabupaten Raja Ampat</title>
+
+    <link rel="stylesheet" href="STS_Ola_91_31.css">
+</head>
+
+<body>
+
+    <div class="header">
+    <h1>⋆˚𝜗𝜚˚⋆ WEB Gabungan ⋆˚౨ৎ ⋆.˚</h1>
+    </div>
+    <div class="topnav">
+        <a href="../Layout/index.html">Biodata</a>
+        <a href="../Layout/table%20merge.html">Table</a>
+        <a href="../Layout/list.html">List</a>
+        <a href="STS_Ola_91_31.html" aria-current="page">STS</a>
+    </div>
+
+    <h1>
+        <span>Kabupaten Raja Ampat</span>
+    </h1>
+
+    <h2>
+        <span>Dibuat Oleh: Ola/91/31</span>
+    </h2>
+
+
+    <nav class="main-nav">
+        <button onclick="showPage('home')">Home</button>
+        <button onclick="showPage('location')">Location Raja Ampat</button>
+        <button onclick="showPage('about')">About Raja Ampat</button>
+        <button onclick="showPage('explore')">Explore Raja Ampat</button>
+        <button onclick="showPage('underwater')">Underwater Wonders</button>
+        <button onclick="showPage('things')">Things to Do</button>
+    </nav>
+
+
+    <audio id="musik-latar" loop>
+        <source src="Audio.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <div class="emoji-rain">
+        <span>✨</span>
+        <span>🌟</span>
+        <span>💫</span>
+        <span>⭐</span>
+        <span>✦</span>
+        <span>✧</span>
+        <span>✨</span>
+        <span>🌟</span>
+        <span>💫</span>
+        <span>⭐</span>
+        <span>✦</span>
+        <span>✧</span>
+        <span>✨</span>
+        <span>🌟</span>
+        <span>💫</span>
+        <span>⭐</span>
+        <span>✦</span>
+        <span>✧</span>
+        <span>✨</span>
+        <span>🌟</span>
+        <span>💫</span>
+        <span>⭐</span>
+        <span>✦</span>
+        <span>✧</span>
+    </div>
+
+
+    <section id="home" class="page active">
+
+        <div class="map-container">
+            <img src="Indo STS.png" alt="Peta Indonesia">
+        </div>
+
+
+        <div class="info-row">
+
+            <div class="info-item">
+                <div class="info-title" onclick="toggleInfo(this)">
+                    📍 Location
+                </div>
+
+                <div class="info-description">
+                    Raja Ampat terletak di Provinsi Papua Barat Daya,
+                    Indonesia. Wilayah ini berada di bagian barat Pulau Papua
+                    dan terdiri dari banyak pulau yang dikelilingi laut.
+                </div>
+            </div>
+
+
+            <div class="info-item">
+                <div class="info-title" onclick="toggleInfo(this)">
+                    🏝️ Islands
+                </div>
+
+                <div class="info-description">
+                    Empat pulau utama Raja Ampat adalah Waigeo, Misool,
+                    Salawati, dan Batanta. Selain itu, terdapat banyak pulau
+                    kecil lainnya yang memiliki keindahan alam.
+                </div>
+            </div>
+
+
+            <div class="info-item">
+                <div class="info-title" onclick="toggleInfo(this)">
+                    🌊 Ocean
+                </div>
+
+                <div class="info-description">
+                    Perairan Raja Ampat terkenal dengan keanekaragaman
+                    hayati lautnya, seperti terumbu karang, ikan, dan
+                    berbagai hewan laut lainnya.
+                </div>
+            </div>
+
+        </div>
+
+
+        <h4>📸 Photos of Raja Ampat</h4>
+
+        <div class="photo-carousel">
+    <div class="photo-track">
+
+        <div class="photo-set">
+            <div class="photo-card">
+                <img src="Foto1.png" alt="Raja Ampat">
+            </div>
+
+            <div class="photo-card">
+                <img src="Foto1-1.png" alt="Raja Ampat">
+            </div>
+
+            <div class="photo-card">
+                <img src="Foto2.png" alt="Raja Ampat">
+            </div>
+
+            <div class="photo-card">
+                <img src="Foto3.png" alt="Raja Ampat">
+            </div>
+
+            <div class="photo-card">
+                <img src="Foto3-3.png" alt="Raja Ampat">
+            </div>
+
+            <div class="photo-card">
+                <img src="Foto2-2.png" alt="Raja Ampat">
+            </div>
+        </div>
+
+        <div class="photo-set">
+            <div class="photo-card">
+                <img src="Foto1.png" alt="Raja Ampat">
+            </div>
+
+            <div class="photo-card">
+                <img src="Foto1-1.png" alt="Raja Ampat">
+            </div>
+
+            <div class="photo-card">
+                <img src="Foto2.png" alt="Raja Ampat">
+            </div>
+
+            <div class="photo-card">
+                <img src="Foto3.png" alt="Raja Ampat">
+            </div>
+
+            <div class="photo-card">
+                <img src="Foto3-3.png" alt="Raja Ampat">
+            </div>
+
+            <div class="photo-card">
+                <img src="Foto2-2.png" alt="Raja Ampat">
+            </div>
+        </div>
+
+    </div>
+</div>
+    </section>
+
+
+
+    <section id="location" class="page">
+
+        <h3>
+            <b>📍 Location Raja Ampat 📍</b>
+        </h3>
+
+        <div class="location-map-box">
+            <iframe
+                src="https://www.google.com/maps?q=Raja+Ampat,+Papua+Barat+Daya,+Indonesia&output=embed"
+                title="Peta Google Maps Raja Ampat"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="location-info-box">
+            Raja Ampat terletak di Provinsi Papua Barat Daya, Indonesia.
+            Wilayah ini berada di bagian barat Pulau Papua dan terdiri dari
+            banyak pulau yang dikelilingi oleh laut. Letaknya yang berada di
+            kawasan timur Indonesia membuat Raja Ampat terkenal dengan
+            keindahan pulau dan kekayaan lautnya.
+        </div>
+
+    </section>
+
+
+
+    <section id="about" class="page">
+
+        <h3>
+            <b>ᯓ ✈︎ ⋆°•☁︎ About Raja Ampat .ೃ࿔ ✈︎ *:･</b>
+        </h3>
+
+
+        <div class="about-a1">
+            <img class="about-island-left" src="Pulau 1 (1).png" alt="Pulau Raja Ampat 1">
+
+            <a1>
+                Raja Ampat merupakan salah satu wilayah kepulauan yang
+                terletak di Provinsi Papua Barat Daya, Indonesia. Nama Raja
+                Ampat berarti “Empat Raja” dan berasal dari empat pulau utama,
+                yaitu Waigeo, Misool, Salawati, dan Batanta. Selain keempat
+                pulau tersebut, Raja Ampat juga memiliki banyak pulau kecil
+                yang memiliki keindahan alam dan keanekaragaman hayati yang
+                tinggi.
+            </a1>
+
+            <img class="about-island-right" src="Pulau 2 (1).png" alt="Pulau Raja Ampat 2">
+        </div>
+
+
+        <div class="about-flip-card">
+            <div class="about-flip-inner">
+                <div class="about-flip-front">
+                    <a2>
+                        Raja Ampat dikenal sebagai salah satu tempat dengan kekayaan laut
+                        yang luar biasa. Perairannya memiliki berbagai jenis terumbu
+                        karang, ikan, dan hewan laut lainnya. Keindahan tersebut
+                        menjadikan Raja Ampat sebagai salah satu destinasi wisata alam
+                        yang terkenal di Indonesia dan dunia.
+                        Wilayah Raja Ampat tidak hanya terdiri dari laut, tetapi juga
+                        memiliki hutan, pantai, bukit, dan berbagai ekosistem lainnya.
+                        Setiap bagian wilayahnya memiliki keunikan yang membuat Raja
+                        Ampat menarik untuk dipelajari dan dikunjungi.
+                    </a2>
+                </div>
+
+                <div class="about-flip-back">
+                    <img src="air.png" alt="Perairan Raja Ampat">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="about-flip-card">
+            <div class="about-flip-inner">
+                <div class="about-flip-front">
+                    <a4>
+                        Selain keindahan alam, Raja Ampat juga memiliki masyarakat dengan
+                        budaya dan tradisi yang beragam. Kehidupan masyarakat setempat
+                        memiliki hubungan yang erat dengan lingkungan alam di sekitarnya.
+                        Oleh karena itu, menjaga kelestarian alam menjadi hal yang penting
+                        bagi kehidupan masyarakat dan keberlangsungan wisata.
+                        Raja Ampat merupakan contoh kekayaan alam Indonesia yang perlu
+                        dijaga bersama. Dengan mengenal keindahan alam dan kehidupan
+                        masyarakatnya, kita dapat lebih menghargai lingkungan serta
+                        memahami pentingnya menjaga keragaman hayati untuk generasi
+                        mendatang
+                    </a4>
+                </div>
+
+                <div class="about-flip-back">
+                    <img src="masyarakat.png" alt="Masyarakat Raja Ampat">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="explore" class="page">
+
+        <h3>
+            <b>✦ Explore Raja Ampat ✦</b>
+        </h3>
+
+        <div class="explore-text-box">
+            Raja Ampat memiliki banyak tempat wisata yang menarik untuk
+            dijelajahi. Setiap tempat menawarkan pemandangan dan pengalaman
+            yang berbeda, mulai dari gugusan pulau, pantai, hingga kampung
+            wisata. Keindahan alamnya membuat Raja Ampat menjadi salah satu
+            destinasi yang banyak dikunjungi oleh wisatawan.
+        </div>
+
+        <div class="explore-carousel">
+            <button class="explore-btn explore-left" onclick="moveExplore(-1)" aria-label="Tempat sebelumnya">❮</button>
+
+            <div class="explore-window">
+                <div class="explore-track">
+                    <article class="explore-card">
+                        <img src="wayag.png" alt="Wayag">
+                        <div class="explore-details">
+                            <h4>Wayag</h4>
+                            <p>
+                                Salah satu tempat yang terkenal adalah Wayag. Wilayah ini
+                                memiliki gugusan pulau karst yang dikelilingi oleh air laut
+                                berwarna biru kehijauan. Pemandangan pulau-pulau tersebut dapat
+                                dinikmati dari atas bukit. Wayag menjadi salah satu tempat yang
+                                sering dikunjungi untuk menikmati pemandangan alam dan fotografi.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="explore-card">
+                        <img src="piaynemo.png" alt="Piaynemo">
+                        <div class="explore-details">
+                            <h4>Piaynemo</h4>
+                            <p>
+                                Piaynemo juga merupakan tempat wisata yang terkenal di Raja
+                                Ampat. Tempat ini memiliki pemandangan pulau-pulau kecil yang
+                                dapat dilihat dari atas bukit. Pengunjung perlu menaiki tangga
+                                untuk mencapai tempat pengamatan. Dari atas, terlihat pemandangan
+                                laut dan pulau yang sangat indah.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="explore-card">
+                        <img src="misool.png" alt="Misool">
+                        <div class="explore-details">
+                            <h4>Misool</h4>
+                            <p>
+                                Misool merupakan salah satu pulau utama Raja Ampat yang memiliki
+                                keindahan alam beragam. Pulau ini memiliki pantai, hutan, gua,
+                                dan kawasan laut yang menarik untuk dijelajahi. Misool juga
+                                dikenal sebagai salah satu wilayah penting bagi keanekaragaman
+                                hayati laut.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="explore-card">
+                        <img src="arborek.png" alt="Arborek">
+                        <div class="explore-details">
+                            <h4>Arborek</h4>
+                            <p>
+                                Selain itu, terdapat Arborek yang merupakan salah satu kampung
+                                wisata di Raja Ampat. Pengunjung dapat mengenal kehidupan
+                                masyarakat setempat dan menikmati keindahan alam di sekitar
+                                kampung. Tempat ini memberikan pengalaman wisata yang berbeda
+                                karena pengunjung dapat melihat hubungan masyarakat dengan
+                                lingkungan.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <button class="explore-btn explore-right" onclick="moveExplore(1)" aria-label="Tempat berikutnya">❯</button>
+        </div>
+
+        <div class="explore-text-box">
+            Dengan banyaknya tempat yang dapat dikunjungi, Raja Ampat
+            menawarkan pengalaman wisata yang beragam. Pengunjung dapat
+            menikmati pemandangan, menjelajahi pulau, dan mengenal kekayaan
+            alam Indonesia. Setiap perjalanan juga menjadi kesempatan untuk
+            belajar menjaga lingkungan dan menghargai keindahan alam.
+        </div>
+
+    </section>
+
+
+
+    <section id="underwater" class="page">
+
+        <h3>
+            <b>𓆝 𓆟 Underwater Wonders 𓆞 𓆝</b>
+        </h3>
+
+        <div class="underwater-flip-card">
+            <div class="underwater-flip-inner">
+                <div class="underwater-flip-front">
+                    <div class="underwater-flip-content">
+            <p>
+                Raja Ampat memiliki keindahan bawah laut yang menjadi salah satu
+                daya tarik utamanya. Perairan Raja Ampat dikenal memiliki
+                keanekaragaman hayati laut yang sangat tinggi. Di dalamnya terdapat
+                berbagai jenis terumbu karang, ikan tropis, penyu, dan hewan laut
+                lainnya. Keindahan tersebut menjadikan Raja Ampat sebagai salah satu
+                wilayah penting bagi kehidupan laut di dunia.
+            </p>
+
+            <p>
+                Terumbu karang merupakan bagian penting dari ekosistem bawah laut.
+                Terumbu karang menjadi tempat berlindung dan mencari makanan bagi
+                berbagai jenis hewan laut. Di sekitar terumbu karang, pengunjung
+                dapat melihat ikan dengan berbagai bentuk dan warna. Keberadaan
+                terumbu karang yang sehat juga membantu menjaga keseimbangan
+                ekosistem laut.
+            </p>
+
+            <p>
+                Salah satu kegiatan yang banyak dilakukan wisatawan adalah
+                snorkeling. Kegiatan ini memungkinkan pengunjung melihat keindahan
+                bawah laut dari permukaan air. Selain itu, diving atau menyelam juga
+                dapat dilakukan untuk melihat kehidupan laut secara lebih dekat.
+                Kedua kegiatan tersebut memberikan pengalaman untuk mengenal
+                kekayaan alam yang dimiliki Raja Ampat.
+            </p>
+
+            <p>
+                Penyu laut juga menjadi salah satu hewan yang dapat ditemukan di
+                perairan Raja Ampat. Hewan ini membutuhkan lingkungan laut yang
+                bersih dan sehat untuk bertahan hidup. Selain penyu, terdapat pula
+                berbagai jenis ikan dan hewan laut lain yang memiliki peran penting
+                dalam ekosistem.
+            </p>
+
+            <p>
+                Namun, keindahan bawah laut Raja Ampat perlu dijaga dari berbagai
+                ancaman. Sampah plastik, pencemaran air, dan kerusakan terumbu
+                karang dapat mengganggu kehidupan hewan laut. Oleh karena itu,
+                pengunjung perlu menjaga kebersihan, tidak menyentuh atau merusak
+                terumbu karang, serta tidak mengganggu hewan laut.
+            </p>
+
+            <p>
+                Dengan menjaga ekosistem bawah laut, keindahan Raja Ampat dapat
+                terus dinikmati oleh generasi mendatang. Laut bukan hanya tempat
+                wisata, tetapi juga rumah bagi berbagai makhluk hidup yang harus
+                dilindungi.
+            </p>
+                    </div>
+                </div>
+
+                <div class="underwater-flip-back">
+                    <img src="terumbu.png" alt="Terumbu karang Raja Ampat">
+                </div>
+            </div>
+        </div>
+
+        <div class="underwater-gallery">
+            <div class="underwater-photo-track">
+                <div class="underwater-photo-set">
+                    <div class="underwater-photo-card">
+                        <img src="gurita.png" alt="Gurita di perairan Raja Ampat">
+                        <span>Gurita</span>
+                    </div>
+
+                    <div class="underwater-photo-card">
+                        <img src="mandarin.png" alt="Ikan mandarin di perairan Raja Ampat">
+                        <span>Ikan Mandarin</span>
+                    </div>
+
+                    <div class="underwater-photo-card">
+                        <img src="penyu.png" alt="Penyu di perairan Raja Ampat">
+                        <span>Penyu Laut</span>
+                    </div>
+
+                    <div class="underwater-photo-card">
+                        <img src="ubur.png" alt="Ubur-ubur di perairan Raja Ampat">
+                        <span>Ubur-Ubur</span>
+                    </div>
+                </div>
+
+                <div class="underwater-photo-set" aria-hidden="true">
+                    <div class="underwater-photo-card">
+                        <img src="gurita.png" alt="">
+                        <span>Gurita</span>
+                    </div>
+
+                    <div class="underwater-photo-card">
+                        <img src="mandarin.png" alt="">
+                        <span>Ikan Mandarin</span>
+                    </div>
+
+                    <div class="underwater-photo-card">
+                        <img src="penyu.png" alt="">
+                        <span>Penyu Laut</span>
+                    </div>
+
+                    <div class="underwater-photo-card">
+                        <img src="ubur.png" alt="">
+                        <span>Ubur-Ubur</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="things" class="page">
+
+        <h3>
+            <b>𓂃 ࣪˖ ִֶָ Things to Do in Raja Ampat 𓂃 ࣪˖ ִֶָ</b>
+        </h3>
+
+
+        <div class="things-carousel">
+
+            <button class="carousel-btn left"
+                    onclick="moveThings(-1)">
+                ❮
+            </button>
+
+
+            <div class="things-window">
+
+                <div class="things-track">
+
+
+      <div class="thing-card">
+
+    <div class="thing-content">
+        <img src="Snordiving.png" alt="Snorkeling and Diving">
+
+        <div class="thing-details">
+            <h4>Snorkeling and Diving</h4>
+            <p>
+              Saat menyelam, kuma dapat melihat berbagai jenis ikan tropis dan terumbu karang yang masih sehat. Terdapat banyak spot snorkeling dan diving yang terkenal dengan menawarkan pengalaman berbeda di setiap lokasi.
+
+            </p>
+        </div>
+    </div>
+</div>
+
+
+                  <div class="thing-card">
+    <div class="thing-content">
+        <img src="Bridwacthing.png" alt="Birdwatching">
+
+        <div class="thing-details">
+            <h4>Birdwatching</h4>
+            <p>
+                Raja Ampat menjadi rumah bagi banyak spesies burung endemic yang menarik untuk diamati. Aktivitas birdwatching paling sering dilakukan saat pagi hari dimana burung - burung sedang aktif.
+
+            </p>
+        </div>
+    </div>
+</div>
+
+
+                  <div class="thing-card">
+    <div class="thing-content">
+        <img src="Island.png" alt="Island Hopping">
+
+        <div class="thing-details">
+            <h4>Island Hopping</h4>
+            <p>
+                Island hopping merupakan aktivitas dimana memungkinkan kita untuk menjelajahi pulau - pulau kecil. Perjalanan antar pulau biasanya menggunakan speedboat, atau juga dapat   memilih kapal Phinisi untuk pengalaman lebih nyaman dan eksklusif.
+
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="thing-card">
+    <div class="thing-content">
+        <img src="Swim.png" alt="Swimming and Kayaking">
+
+        <div class="thing-details">
+            <h4>Swimming and Kayaking in the Lagoon</h4>
+            <p>
+                Laguna di beberapa pulau raja Ampat memiliki perairan yang tenang dan aman untuk berenang maupun kayaki. Kamu dapat menjelajahi teluk atau laguna tersembunyi yang sulit dijangkau oleh perahu besar.
+
+            </p>
+        </div>
+    </div>
+</div>
+
+
+                   <div class="thing-card">
+    <div class="thing-content">
+        <img src="shark.png" alt="Playing with Baby Shark">
+
+        <div class="thing-details">
+            <h4>Playing with Baby Shark</h4>
+            <p>
+                Terdapat beberapa lokasi di Raja Ampat yang memungkinkan kita berenang Bersama dengan baby shark. Aktivitas ini sudah diawasi dengan instruktur profesional sehingga aman bagi semua wisatawan.
+
+            </p>
+        </div>
+    </div>
+</div>
+
+            </div>
+
+
+            <button class="carousel-btn right"
+                    onclick="moveThings(1)">
+                ❯
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <script>
+
+        function showPage(pageId) {
+
+            const pages = document.querySelectorAll(".page");
+
+            pages.forEach(page => {
+                page.classList.remove("active");
+            });
+
+            const selectedPage = document.getElementById(pageId);
+
+            if (selectedPage) {
+                selectedPage.classList.add("active");
+                animatePageHeading(selectedPage);
+            }
+
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        }
+
+
+
+        function toggleInfo(element) {
+
+            const description =
+                element.parentElement.querySelector(".info-description");
+
+            description.classList.toggle("show");
+
+        }
+
+
+
+        let thingsIndex = 0;
+
+        function moveThings(direction) {
+
+            const track =
+                document.querySelector(".things-track");
+
+            const cards =
+                document.querySelectorAll(".thing-card");
+
+            if (!track || cards.length === 0) {
+                return;
+            }
+
+            const cardWidth =
+                cards[0].offsetWidth + 25;
+
+            thingsIndex += direction;
+
+            if (thingsIndex < 0) {
+                thingsIndex = cards.length - 1;
+            }
+
+            if (thingsIndex >= cards.length) {
+                thingsIndex = 0;
+            }
+
+            track.style.transform =
+                `translateX(-${thingsIndex * cardWidth}px)`;
+        }
+
+
+
+        let exploreIndex = 0;
+
+        function moveExplore(direction) {
+
+            const track =
+                document.querySelector(".explore-track");
+
+            const cards =
+                document.querySelectorAll(".explore-card");
+
+            if (!track || cards.length === 0) {
+                return;
+            }
+
+            const cardWidth =
+                cards[0].offsetWidth + 25;
+
+            exploreIndex += direction;
+
+            if (exploreIndex < 0) {
+                exploreIndex = cards.length - 1;
+            }
+
+            if (exploreIndex >= cards.length) {
+                exploreIndex = 0;
+            }
+
+            track.style.transform =
+                `translateX(-${exploreIndex * cardWidth}px)`;
+        }
+
+
+
+        function animatePageHeading(page) {
+
+            const heading =
+                page.querySelector("h3 b") || page.querySelector("h3");
+
+            if (!heading) {
+                return;
+            }
+
+            if (heading.typingTimer) {
+                clearTimeout(heading.typingTimer);
+            }
+
+            const text =
+                heading.dataset.fullText || heading.textContent;
+
+            const characters =
+                [...text];
+
+            heading.dataset.fullText = text;
+            heading.textContent = "";
+
+            let index = 0;
+
+            const typeHeading = () => {
+                if (index < characters.length) {
+                    const letter =
+                        document.createElement("span");
+
+                    letter.className = "typing-letter";
+                    letter.textContent =
+                        characters[index] === " "
+                            ? "\u00a0"
+                            : characters[index];
+                    heading.appendChild(letter);
+                    playTypingSound();
+                    index += 1;
+                    heading.typingTimer = setTimeout(typeHeading, 85);
+                }
+            };
+
+            typeHeading();
+        }
+
+
+
+        const title =
+            document.querySelector("h1 span");
+
+        const typingAudioContext =
+            window.AudioContext || window.webkitAudioContext;
+
+        const typingSound = typingAudioContext
+            ? new typingAudioContext()
+            : null;
+
+        function playTypingSound() {
+
+            if (!typingSound) {
+                return;
+            }
+
+            if (typingSound.state === "suspended") {
+                typingSound.resume().catch(() => {});
+            }
+
+            const oscillator =
+                typingSound.createOscillator();
+
+            const volume =
+                typingSound.createGain();
+
+            const currentTime =
+                typingSound.currentTime;
+
+            oscillator.type = "square";
+            oscillator.frequency.setValueAtTime(160, currentTime);
+            volume.gain.setValueAtTime(0.035, currentTime);
+            volume.gain.exponentialRampToValueAtTime(0.001, currentTime + 0.045);
+
+            oscillator.connect(volume);
+            volume.connect(typingSound.destination);
+            oscillator.start(currentTime);
+            oscillator.stop(currentTime + 0.045);
+        }
+
+        if (title) {
+
+            const text = title.textContent;
+
+            const characters =
+                [...text];
+
+            title.textContent = "";
+
+            let index = 0;
+
+            const typeTitle = () => {
+                if (index < characters.length) {
+                    const letter =
+                        document.createElement("span");
+
+                    letter.className = "typing-letter";
+                    letter.textContent =
+                        characters[index] === " "
+                            ? "\u00a0"
+                            : characters[index];
+                    title.appendChild(letter);
+                    playTypingSound();
+                    index += 1;
+                    setTimeout(typeTitle, 85);
+                }
+            };
+
+            typeTitle();
+
+        }
+
+
+
+        const audio =
+            document.getElementById("musik-latar");
+
+        function playMusic() {
+
+            if (audio) {
+
+                audio.volume = 0.35;
+
+                audio.play().catch(() => {});
+
+            }
+
+            document.removeEventListener(
+                "click",
+                playMusic
+            );
+
+            document.removeEventListener(
+                "pointerdown",
+                playMusic
+            );
+
+        }
+
+        document.addEventListener(
+            "click",
+            playMusic
+        );
+
+        document.addEventListener(
+            "pointerdown",
+            playMusic
+        );
+
+    </script>
+
+    <div class="footer">
+        <h2>FOOTER</h2>
+    </div>
+
+</body>
+
+</html>
