@@ -1,0 +1,39 @@
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background-color: #a5bbf4ca;
+    background-image: url("Bacground merge.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+table {
+    width: 75%;
+    height: 50vh;
+    margin: 0 auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 2px solid #315b91;
+    padding: clamp(6px, 1vh, 12px);
+    color: rgb(9, 4, 0);
+    text-align: center;
+    font-family: "Comic Sans MS", "Trebuchet MS", cursive;
+    font-size: clamp(0.9rem, 1.4vw, 1.2rem);
+    background-color: #dceaff;
+}
+
+th {
+    background-color: #8fb5e8;
+}
+
+tr:nth-child(even) td {
+    background-color: #bcd4f2;
+}
